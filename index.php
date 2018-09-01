@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<!--TheFreeElectron 2015, http://www.instructables.com/member/TheFreeElectron/ -->
+
 
 <html>
     <head>
@@ -17,7 +17,7 @@
 	
 	echo "<font color=green>"."<font size='5pt'>"."<center>"."<b>"."Today's date is ".date('d/m/Y')."<br>"; 
 	$val_array = array(0,0,0,0,0,0);
-	//this php script generate the first page in function of the file
+	
 	for ( $i= 0; $i<6; $i++) {
 		//set the pin's mode to output and read them
 		system("gpio mode ".$i." out");
